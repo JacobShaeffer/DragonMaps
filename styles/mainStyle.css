@@ -1,0 +1,62 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+#mapid {
+    display: flex;
+    width: 100vw;
+    height: calc(100vh - 39px);
+}
+
+ul.tool-bar{
+    padding: 0;
+    list-style: none;
+}
+
+.tool-bar {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    background-color: #696969;
+    margin: 0;
+}
+
+.tool-bar li.title{
+    font-size: 2em;
+    margin-left: 50px;
+    margin-right: auto;
+    color: #f00;
+    padding: 1px;
+}
+
+.tool-bar li.selected{
+    color: red;
+}
+
+.tool-bar li:not(.title):last-child{
+    margin-right: 50px;
+}
+.tool-bar li:not(.title){
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.length{
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.total-length{
+    font-size: 1.25em;
+}
+
+.segment-length{
+    padding-top: 20px;
+    font-size: 1.25em;
+}
+
+.icon{
+    width: auto;
+    height: auto;
+}
